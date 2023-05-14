@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+.Primer-header{
+    text-align: center;
+    background-color: #E7B8FF;
+    width: 100%;
+    height: 250px;
+       
+}
+
+ul a li{
+    list-style: none;
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    padding: 0;
+}
+.contenedor a{
+    color:#8e8e8e;
+}
+
+.contenedor a:hover{
+    color: indigo;
+    font-size: 25px;
+}
+
+.opciones{
+    background-color: white;
+    width: 20%;
+    height: 30px;
+    font-size: 20px; 
+}
+
+.animate__animated{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+}
+
+.Subtítulo{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+/*Main*/
+
+form{
+    border-style:outset;
+    border-bottom-width: 5px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../Imágenes/clothes.jpg);
+    background-size: cover;
+
+}
+
+h2{
+    background-color:#6E2BFF;
+    text-align: center;
+    font-size: 25px;
+    border: 1PX solid black;
+}
+
+h4{
+    background-color:#E7B8FF;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+}
+
+.caja-seccion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+} 
+
+.caja-prenda{
+    background-color: white;
+    padding-bottom: 1px;
+    margin: 1px;
+    
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    background-image: url(../Imágenes/Tarjetas\ fondo.jpeg);
+    background-size: contain;
+    
+}
+
+
+/*Aside*/
+
+/*Footer*/
+
+.Primer-footer{
+    background-color: rgb(193, 199, 136);
+    width: 100%; 
+    height: 30px;
+    text-align: center;
+}
